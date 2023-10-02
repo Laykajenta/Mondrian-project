@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height:420px; 
+    width: 319px;
+  
+        display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(7, 35px) 18px;
+    /* grid-template-columns: 1fr 1fr 1f3; */
+    grid-template-rows: repeat(8, 35px) 17.5px 35px ;
+    background-color: black;
+}
+.grey{
+    background-color: rgb(166, 164, 164);  
+}
+.hvit{
+    background-color: white;
+}
+.gul{
+    background-color: #F9D01E;
+}
+.red{
+    background-color: #E72F24;
+}
+.sort{
+    background-color: black;
+}
+.blue{
+    background-color: #140d5b;
+}
+.toppGrey{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.toppHvit{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.toppGul{
+
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.topp2Grey{
+    grid-column: span 1; 
+    grid-row: span 4;
+}
+.rad2Hvit{
+   
+    grid-row:span 2;
+}
+.storRed{
+    
+    grid-column: span 4;  
+    grid-row: span 4;
+
+}
+.rad2Gul{
+ 
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.rad3Grey{
+ 
+    grid-column: span 1; 
+    grid-row: span 3;  
+}
+.rad3Hvit1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.rad3Hvit2 { 
+    grid-column: span 1;
+    grid-row: span 2;}
+.rad4Sort{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.rad4Grey{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.rad4Hvit1{ 
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.rad4Hvit{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.rad5Gul {
+    grid-column: span 1;
+    grid-row: span 5;
+}
+.rad5Grey {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.rad5Blue {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.rad5Red {
+    grid-column: span 1;
+    grid-row: span 5;
+}
+.rad6Hvit {
+    grid-column: span 2;
+    grid-row: span 4;
+}
+.rad6Sort {
+    grid-column: span 2;
+    grid-row: 18px;
+}
+.rad7Hvit {
+    grid-column: span 4;
+    grid-row: span 3;
+}
